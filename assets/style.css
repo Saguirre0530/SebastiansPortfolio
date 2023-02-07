@@ -6,7 +6,7 @@ body{
     margin: 0 auto;
     width: 100%;
     padding: 0 20px;
-    max-width: 1300px;
+
 }
 
 .headerbackground{
@@ -43,6 +43,7 @@ header nav li a{
 }
 
 #picture{
+    margin: 0 auto;
     margin-top: 2%;
     width: 15%;
     padding: 5px;
@@ -50,23 +51,34 @@ header nav li a{
 }
 
 h2{
-    font-size: 50px;
-    float: left;
-    width: 15%;
+    position: absolute;
+    display: inline-block;
+    width: 9%;
+    font-size: 48px;
     text-align: right;
-    margin-bottom: 100px;
     color: blue;
 }
-
 .vertical-line{
+    display: inline-block;
     border-left: 4px solid grey;
-    margin-bottom: 100px;
-    float: right;
-    margin-top: 50px;
-    width: 81%;
+    margin-left: 200px;
     padding: 15px;
 }
 
 p{
     font-size: 26px;
 }
+
+.app{
+    width: 95%;
+    padding: 4px;
+    background-color: #2c03c2;
+}
+
+.mini{
+    flex-wrap: wrap;
+    padding: 3px;
+    background-color: #2c03c2;
+    width: 46.9%;
+}
+
