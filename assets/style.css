@@ -6,7 +6,7 @@ body{
     margin: 0 auto;
     width: 100%;
     padding: 0 20px;
-
+    max-width: 1300px;
 }
 
 .headerbackground{
@@ -36,7 +36,7 @@ header nav li{
 }
 
 header nav li a{
-    text-decoration: none;
+    text-decoration: underline;
     color: #b8d4d2;
     font-size: 16px;
     font-weight: bold;
@@ -52,16 +52,15 @@ header nav li a{
 
 h2{
     position: absolute;
-    display: inline-block;
     width: 9%;
-    font-size: 48px;
     text-align: right;
+    font-size: 48px;
     color: blue;
 }
 .vertical-line{
     display: inline-block;
     border-left: 4px solid grey;
-    margin-left: 200px;
+    margin-left: 180px;
     padding: 15px;
 }
 
@@ -82,3 +81,20 @@ p{
     width: 46.9%;
 }
 
+div{
+    margin-left: 150px;
+    max-height: 20%;
+}
+
+div li{
+    float: left;
+    list-style-type: none;
+    margin: 70px 55px;
+}
+
+div li a{
+    text-decoration: underline;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
